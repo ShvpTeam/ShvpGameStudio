@@ -1,0 +1,65 @@
+.title{
+    transition: 0s;
+    -webkit-transition: 1s;
+    letter-spacing: 0.5em;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.title:hover{
+    transform: scale(1.05);
+}
+.read{  
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.gamestudio{
+    margin:  0 auto;
+    width: 500px;
+    color: #EDFFF8;
+    padding: 00.5em 1em;
+    background: white;
+    border-top: solid 10px #35283b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.55);
+    border-radius: 4px 4px 4px 4px;
+    text-decoration: none;
+    font-family: source-han-sans-japanese;
+    font-weight: 400;
+    font-style: normal;
+    background:-webkit-gradient(linear, left top, right bottom, from(#0041ab), to(#182230));
+	background:-moz-linear-gradient(left, #0041ab, #182230);
+}
+.uw{
+    width: 150px;
+    font-family: "Zen Kaku Gothic Antique";
+    transition: 0s;
+    -webkit-transition: 1s;
+}
+.uw:hover{
+    transform: scale(1.05);
+}
+.button {
+    text-align: black;
+    display: inline-block;
+    padding: .5em 4em;
+    background: white;
+    color: black;
+    border-left: solid black 5px;
+    transition: 0.5s;
+  }
+  .button:hover{
+    color: rgb(226, 226, 226);
+    background: black;
+    border-left:solid rgb(255, 255, 255) 5px;
+  }
+  .button:hover::before{
+      content: "Go!";
+
+  }
+/*
+bold type
+font-family: source-han-sans-japanese, sans-serif;
+font-weight: 700;
+font-style: normal;
+*/
